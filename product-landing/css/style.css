@@ -1,0 +1,27 @@
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#header {
+  width: 100%;
+}
+
+#nav-bar {
+  width: 500px;
+  top: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#video {
+  max-width: 500px;
+}
+
+@media (max-width: 1024px) {
+  #nav-bar {
+    flex-direction: column;
+  }
+}
