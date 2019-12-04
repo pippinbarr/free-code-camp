@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Survey form.</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+  <h1 id="title">What do you think?</h1>
+
+  <p id="description">
+    <em>Everybody wants to know!</em>
+  </p>
+
+  <form id="survey-form">
+
+    <label id="name-label" for="name">Your name:</label>
+    <input id="name" type="name" placeholder="Your Name" required></input>
+    <br>
+    <label id="email-label" for="email">Your email:</label>
+    <input id="email" type="email" placeholder="your@email.address" required></input>
+    <br>
+    <label id="number-label" for="number">Your favorite number:</label>
+    <input id="number" type="number" min="0" max="127" placeholder="your favorite number"></input>
+    <br>
+    <label id="dropdown-label" for="dropdown">The best egg:</label>
+    <select id="dropdown">
+      <option value="dead">... is a dead egg</option>
+      <option value="boiled">... is a boiled egg</option>
+      <option value="egg">... is just an egg</option>
+    </select>
+    <br>
+    <fieldset>
+      <legend>Best radio?</legend>
+      <label for="am">AM:
+        <input id="am" name="radios" type="radio" value="am">
+      </label>
+
+      <label for="fm">FM:
+        <input id="fm" name="radios" type="radio" value="fm">
+      </label>
+
+      <label for="amfm">AM/FM:
+        <input id="amfm" name="radios" type="radio" value="amfm" checked>
+      </label>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Do you?</legend>
+      <label for="yes">Yes:
+        <input id="yes" name="checkboxes" type="checkbox" value="yes">
+      </label>
+
+      <label for="no">No:
+        <input id="no" name="checkboxes" type="checkbox" value="no">
+      </label>
+
+      <label for="maybe">Maybe:
+        <input id="maybe" name="checkboxes" type="checkbox" value="maybe" checked>
+      </label>
+    </fieldset>
+    <br>
+    <label for="comments">Any last requests?</label>
+    <br>
+    <textarea id="comments">A pixie caramel?</textarea>
+    <br>
+    <button id="submit" type="submit">Submit</button>
+
+  </form>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
