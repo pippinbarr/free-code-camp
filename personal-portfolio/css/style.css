@@ -1,0 +1,24 @@
+@media (min-width: 1024px) {
+  body {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+#welcome-section {
+  height: 100vh;
+  width: auto;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+}
