@@ -1,0 +1,24 @@
+@media (min-width: 1024px) {
+  #navbar {
+    width: 20%;
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(200,200,200);
+  }
+
+  #main {
+    display: flex;
+    float: left;
+    width: 70%;
+    /* margin-left: 200px; */
+  }
+}
+
+@media (max-width: 1024px) {
+  #navbar {
+    display: flex;
+    flex-direction: row;
+  }
+}
